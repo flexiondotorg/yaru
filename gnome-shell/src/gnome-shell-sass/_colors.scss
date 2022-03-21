@@ -3,7 +3,7 @@
 @import 'palette';
 
 $base_color: if($variant=='light', #ffffff, lighten($jet, 4%));
-$bg_color_dark: lighten($jet, 2%);
+$bg_color_dark: lighten($jet, 6%);
 $bg_color: if($variant=='light', #FAFAFA, $bg_color_dark);
 $fg_color_dark: $porcelain;
 $fg_color: if($variant=='light', $inkstone, $fg_color_dark);

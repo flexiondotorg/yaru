@@ -22,7 +22,7 @@
 
   border-radius: $modal_radius - 2px;
   border: 1px solid $borders_edge;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  box-shadow: if($variant == 'light', 0 2px 4px 0 rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.20));
   background-color: $bg_color;
 }
 
